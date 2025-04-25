@@ -1,6 +1,6 @@
 # Programación 2 - [Programación 2 / Pietrobon.C]
 
-Este repositorio contiene los proyectos y ejercicios realizados durante el curso de Programación 2, dictado por el profesor Pietrobon.C.
+Este repositorio contiene el proyecto y ejercicios realizados durante el curso de Programación 2, dictado por el profesor Pietrobon.C.
 
 ## 📚 Descripción
 
