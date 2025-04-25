@@ -1,6 +1,5 @@
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
-from flask_migrate import Migrate
 from dotenv import load_dotenv
 import os
 
@@ -17,8 +16,9 @@ app.config.from_object('config.config.Config')
 from models.db import db
 db.init_app(app)
 
-# Migraciones (opcional, pero útil)
-migrate = Migrate(app, db)
+# Crear las tablas si no existen (sin necesidad de app.app_context)
+with app.app_context():
+    db.create_all()
 
 # Importar y registrar blueprints
 from routes.client_routes import client_bp
