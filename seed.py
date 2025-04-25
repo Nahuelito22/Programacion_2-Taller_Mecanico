@@ -4,6 +4,7 @@ from models.vehicle import Vehicle
 from models.repair import Repair
 from app import app
 
+# Ejecutar para limpiar base de datos construida anteriormente
 with app.app_context():
     db.drop_all()
     db.create_all()
