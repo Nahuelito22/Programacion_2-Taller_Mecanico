@@ -24,6 +24,7 @@ Este proyecto integra los principales conceptos del curso. Los objetivos fueron:
 - Realizar operaciones CRUD (Create, Read, Update, Delete)
 - Conectar la API con una base de datos MySQL usando Workbench
 - Versionar el proyecto con Git y publicarlo en GitHub para trabajo colaborativo
+- Generar un relevamiento de proyecto con su respectivo grafico UML 
 
 #### ▶️ Instrucciones de ejecución
 
